@@ -1,4 +1,4 @@
-module github.com/underpin-korea/livekit_server_go
+module github.com/livekit/livekit-server
 
 go 1.17
 
