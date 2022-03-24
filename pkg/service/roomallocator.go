@@ -65,6 +65,9 @@ func (r *StandardRoomAllocator) CreateRoom(ctx context.Context, req *livekit.Cre
 	if req.MaxParticipants > 0 {
 		rm.MaxParticipants = req.MaxParticipants
 	}
+	if req.RoomType != "" {
+		rm.RoomType = req.RoomType
+	}
 	if req.Metadata != "" {
 		rm.Metadata = req.Metadata
 	}
@@ -116,6 +119,7 @@ func (r *StandardRoomAllocator) CreateRoom(ctx context.Context, req *livekit.Cre
 func applyDefaultRoomConfig(room *livekit.Room, conf *config.RoomConfig) {
 	room.EmptyTimeout = conf.EmptyTimeout
 	room.MaxParticipants = conf.MaxParticipants
+	room.RoomType = conf.RoomType
 	for _, codec := range conf.EnabledCodecs {
 		room.EnabledCodecs = append(room.EnabledCodecs, &livekit.Codec{
 			Mime:     codec.Mime,

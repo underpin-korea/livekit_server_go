@@ -1,4 +1,4 @@
-module github.com/livekit/livekit-server
+module github.com/underpin-korea/livekit_server_go
 
 go 1.17
 
@@ -87,3 +87,6 @@ require (
 	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+replace github.com/livekit/protocol => github.com/underpin-korea/protocol v0.12.0
+replace github.com/livekit-server => github.com/underpin-korea/livekit_server_go v0.0.0

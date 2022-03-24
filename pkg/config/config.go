@@ -124,6 +124,7 @@ type RoomConfig struct {
 	AutoCreate         bool        `yaml:"auto_create"`
 	EnabledCodecs      []CodecSpec `yaml:"enabled_codecs"`
 	MaxParticipants    uint32      `yaml:"max_participants"`
+	RoomType		string		`yaml:"room_type"`
 	EmptyTimeout       uint32      `yaml:"empty_timeout"`
 	EnableRemoteUnmute bool        `yaml:"enable_remote_unmute"`
 }
