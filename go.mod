@@ -89,4 +89,5 @@ require (
 )
 
 replace github.com/livekit/protocol => github.com/underpin-korea/protocol v0.12.0
-replace github.com/livekit-server => github.com/underpin-korea/livekit_server_go v0.0.0
+
+replace github.com/livekit/livekit-server => github.com/underpin-korea/livekit_server_go v0.0.0-20220324034329-ab74e24ed134
