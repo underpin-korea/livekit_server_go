@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils"
 	"github.com/stretchr/testify/require"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/utils"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/routing/selector"
+	"github.com/underpin-korea/livekit_server_go/pkg/config"
+	"github.com/underpin-korea/livekit_server_go/pkg/routing/selector"
 )
 
 const (

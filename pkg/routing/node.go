@@ -4,10 +4,10 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/utils"
 
-	"github.com/livekit/livekit-server/pkg/config"
+	"github.com/underpin-korea/livekit_server_go/pkg/config"
 )
 
 type LocalNode *livekit.Node

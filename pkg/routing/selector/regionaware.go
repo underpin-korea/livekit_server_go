@@ -3,10 +3,10 @@ package selector
 import (
 	"math"
 
-	"github.com/livekit/protocol/livekit"
 	"github.com/thoas/go-funk"
+	"github.com/underpin-korea/protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/config"
+	"github.com/underpin-korea/livekit_server_go/pkg/config"
 )
 
 // RegionAwareSelector prefers available nodes that are closest to the region of the current instance

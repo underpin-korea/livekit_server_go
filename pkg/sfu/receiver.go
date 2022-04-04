@@ -8,16 +8,16 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
 	"github.com/pion/rtcp"
 	"github.com/pion/webrtc/v3"
 	"github.com/rs/zerolog/log"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/logger"
 	"go.uber.org/atomic"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
-	"github.com/livekit/livekit-server/pkg/sfu/connectionquality"
+	"github.com/underpin-korea/livekit_server_go/pkg/config"
+	"github.com/underpin-korea/livekit_server_go/pkg/sfu/buffer"
+	"github.com/underpin-korea/livekit_server_go/pkg/sfu/connectionquality"
 )
 
 var (

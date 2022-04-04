@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/underpin-korea/protocol/livekit"
 )
 
 func participantKey(roomName livekit.RoomName, identity livekit.ParticipantIdentity) livekit.ParticipantKey {

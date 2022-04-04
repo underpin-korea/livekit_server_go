@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
 	"github.com/stretchr/testify/require"
+	"github.com/underpin-korea/protocol/auth"
+	"github.com/underpin-korea/protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/routing/routingfakes"
-	"github.com/livekit/livekit-server/pkg/service"
-	"github.com/livekit/livekit-server/pkg/service/servicefakes"
+	"github.com/underpin-korea/livekit_server_go/pkg/routing/routingfakes"
+	"github.com/underpin-korea/livekit_server_go/pkg/service"
+	"github.com/underpin-korea/livekit_server_go/pkg/service/servicefakes"
 )
 
 func TestDeleteRoom(t *testing.T) {

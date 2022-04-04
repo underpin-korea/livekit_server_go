@@ -3,10 +3,10 @@ package rtc
 import (
 	"testing"
 
-	"github.com/livekit/protocol/livekit"
 	"github.com/stretchr/testify/require"
+	"github.com/underpin-korea/protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/rtc/types/typesfakes"
+	"github.com/underpin-korea/livekit_server_go/pkg/rtc/types/typesfakes"
 )
 
 func TestUpdateSubscriptionPermission(t *testing.T) {

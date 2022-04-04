@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/livekit-server/pkg/rtc"
+	"github.com/underpin-korea/livekit_server_go/pkg/rtc"
 )
 
 const (

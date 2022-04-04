@@ -3,8 +3,8 @@ package clientconfiguration
 import (
 	"testing"
 
-	"github.com/livekit/protocol/livekit"
 	"github.com/stretchr/testify/require"
+	"github.com/underpin-korea/protocol/livekit"
 )
 
 func TestScriptMatchConfiguration(t *testing.T) {

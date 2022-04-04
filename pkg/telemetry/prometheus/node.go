@@ -6,8 +6,8 @@ import (
 	"github.com/mackerelio/go-osstat/loadavg"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/utils"
 )
 
 const livekitNamespace string = "livekit"

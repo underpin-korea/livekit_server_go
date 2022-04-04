@@ -18,7 +18,7 @@ import (
 
 	"github.com/magefile/mage/mg"
 
-	"github.com/livekit/livekit-server/version"
+	"github.com/underpin-korea/livekit_server_go/version"
 )
 
 const (

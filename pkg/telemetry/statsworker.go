@@ -5,7 +5,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/underpin-korea/protocol/livekit"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

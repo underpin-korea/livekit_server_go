@@ -10,11 +10,11 @@ import (
 	"github.com/urfave/cli/v2"
 	"gopkg.in/yaml.v3"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/utils"
+	"github.com/underpin-korea/protocol/auth"
+	"github.com/underpin-korea/protocol/utils"
 
-	"github.com/livekit/livekit-server/pkg/routing"
-	"github.com/livekit/livekit-server/pkg/service"
+	"github.com/underpin-korea/livekit_server_go/pkg/routing"
+	"github.com/underpin-korea/livekit_server_go/pkg/service"
 )
 
 func generateKeys(_ *cli.Context) error {

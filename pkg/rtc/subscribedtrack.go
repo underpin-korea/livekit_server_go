@@ -4,12 +4,12 @@ import (
 	"time"
 
 	"github.com/bep/debounce"
-	"github.com/livekit/protocol/livekit"
 	"github.com/pion/webrtc/v3"
+	"github.com/underpin-korea/protocol/livekit"
 	"go.uber.org/atomic"
 
-	"github.com/livekit/livekit-server/pkg/rtc/types"
-	"github.com/livekit/livekit-server/pkg/sfu"
+	"github.com/underpin-korea/livekit_server_go/pkg/rtc/types"
+	"github.com/underpin-korea/livekit_server_go/pkg/sfu"
 )
 
 const (

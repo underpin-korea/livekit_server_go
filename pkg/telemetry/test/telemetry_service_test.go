@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/livekit/protocol/livekit"
 	"github.com/stretchr/testify/require"
+	"github.com/underpin-korea/protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/telemetry"
-	"github.com/livekit/livekit-server/pkg/telemetry/telemetryfakes"
+	"github.com/underpin-korea/livekit_server_go/pkg/telemetry"
+	"github.com/underpin-korea/livekit_server_go/pkg/telemetry/telemetryfakes"
 )
 
 type telemetryServiceFixture struct {

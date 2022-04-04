@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/logger"
 )
 
 var (

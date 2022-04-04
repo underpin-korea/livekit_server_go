@@ -1,4 +1,4 @@
-module github.com/livekit/livekit-server
+module github.com/underpin-korea/livekit_server_go
 
 go 1.17
 
@@ -13,7 +13,8 @@ require (
 	github.com/google/wire v0.5.0
 	github.com/gorilla/websocket v1.4.2
 	github.com/hashicorp/golang-lru v0.5.4
-	github.com/livekit/protocol v0.12.0
+	//github.com/underpin-korea/livekit_server_go v0.0.0-00010101000000-000000000000
+	github.com/underpin-korea/protocol v0.12.1
 	github.com/mackerelio/go-osstat v0.2.1
 	github.com/magefile/mage v1.11.0
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.3.0
@@ -88,6 +89,6 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
-replace github.com/livekit/protocol => github.com/underpin-korea/protocol v0.12.0
+//replace github.com/livekit/protocol => github.com/underpin-korea/protocol v0.12.0
 
-replace github.com/livekit/livekit-server => github.com/underpin-korea/livekit_server_go v0.0.0-20220324034329-ab74e24ed134
+//replace github.com/underpin-korea/livekit_server_go => github.com/underpin-korea/livekit_server_go v0.0.0-20220324034329-ab74e24ed134

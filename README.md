@@ -122,13 +122,13 @@ traffic.
 
 Pre-requisites:
 
-* Go 1.15+ is installed
-* GOPATH/bin is in your PATH
+- Go 1.15+ is installed
+- GOPATH/bin is in your PATH
 
 Then run
 
 ```shell
-git clone https://github.com/livekit/livekit-server
+git clone https://github.com/underpin-korea/livekit_server_go
 cd livekit-server
 ./bootstrap.sh
 mage

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/livekit/protocol/livekit"
 	"github.com/thoas/go-funk"
+	"github.com/underpin-korea/protocol/livekit"
 )
 
 // encapsulates CRUD operations for room settings

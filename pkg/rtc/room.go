@@ -7,17 +7,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/logger"
 	"go.uber.org/atomic"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/routing"
-	"github.com/livekit/livekit-server/pkg/rtc/types"
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
-	"github.com/livekit/livekit-server/pkg/telemetry"
-	"github.com/livekit/livekit-server/pkg/telemetry/prometheus"
+	"github.com/underpin-korea/livekit_server_go/pkg/config"
+	"github.com/underpin-korea/livekit_server_go/pkg/routing"
+	"github.com/underpin-korea/livekit_server_go/pkg/rtc/types"
+	"github.com/underpin-korea/livekit_server_go/pkg/sfu/buffer"
+	"github.com/underpin-korea/livekit_server_go/pkg/telemetry"
+	"github.com/underpin-korea/livekit_server_go/pkg/telemetry/prometheus"
 )
 
 const (

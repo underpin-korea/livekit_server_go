@@ -1,7 +1,7 @@
 package clientconfiguration
 
 import (
-	"github.com/livekit/protocol/livekit"
+	"github.com/underpin-korea/protocol/livekit"
 )
 
 type ClientConfigurationManager interface {

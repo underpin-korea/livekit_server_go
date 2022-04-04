@@ -1,0 +1,1 @@
+docker run --rm --name livekit -p 7880:7880 -p 7881:7881 -p 7882:7882/udp -e LIVEKIT_KEYS="APIaLunKENxNYZb: MKccE8D7aspfV6qJdaSKeKCRU6hIRFf9ZvxiTCrN2feE" livekit/livekit-server --dev --node-ip=127.0.0.1

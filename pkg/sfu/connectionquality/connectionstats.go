@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
 	"github.com/pion/webrtc/v3"
+	"github.com/underpin-korea/livekit_server_go/pkg/sfu/buffer"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/logger"
 	"go.uber.org/atomic"
 )
 

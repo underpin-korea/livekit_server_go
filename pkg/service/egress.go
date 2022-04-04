@@ -7,12 +7,12 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/egress"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils"
+	"github.com/underpin-korea/protocol/egress"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/logger"
+	"github.com/underpin-korea/protocol/utils"
 
-	"github.com/livekit/livekit-server/pkg/telemetry"
+	"github.com/underpin-korea/livekit_server_go/pkg/telemetry"
 )
 
 type EgressService struct {

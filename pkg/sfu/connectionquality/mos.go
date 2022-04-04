@@ -1,7 +1,7 @@
 package connectionquality
 
 import (
-	"github.com/livekit/protocol/livekit"
+	"github.com/underpin-korea/protocol/livekit"
 )
 
 // MOS score calculation is based on webrtc-stats

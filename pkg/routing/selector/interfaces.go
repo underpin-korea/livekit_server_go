@@ -3,9 +3,9 @@ package selector
 import (
 	"errors"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/underpin-korea/protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/config"
+	"github.com/underpin-korea/livekit_server_go/pkg/config"
 )
 
 var ErrUnsupportedSelector = errors.New("unsupported node selector")

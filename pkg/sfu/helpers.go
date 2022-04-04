@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
 	"github.com/pion/rtcp"
 	"github.com/pion/webrtc/v3"
+	"github.com/underpin-korea/livekit_server_go/pkg/sfu/buffer"
 )
 
 const (

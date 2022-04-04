@@ -1,6 +1,6 @@
 package buffer
 
-import "github.com/livekit/protocol/livekit"
+import "github.com/underpin-korea/protocol/livekit"
 
 type LayerStats struct {
 	TotalPackets uint32

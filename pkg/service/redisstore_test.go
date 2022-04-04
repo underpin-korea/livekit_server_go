@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/livekit/protocol/livekit"
 	"github.com/stretchr/testify/require"
+	"github.com/underpin-korea/protocol/livekit"
 	"go.uber.org/atomic"
 
-	"github.com/livekit/livekit-server/pkg/service"
+	"github.com/underpin-korea/livekit_server_go/pkg/service"
 )
 
 func TestParticipantPersistence(t *testing.T) {

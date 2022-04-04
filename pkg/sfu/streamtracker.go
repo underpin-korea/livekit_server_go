@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/livekit/livekit-server/pkg/utils"
-	"github.com/livekit/protocol/logger"
+	"github.com/underpin-korea/livekit_server_go/pkg/utils"
+	"github.com/underpin-korea/protocol/logger"
 	"go.uber.org/atomic"
 )
 

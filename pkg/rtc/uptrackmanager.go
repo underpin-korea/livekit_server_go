@@ -4,10 +4,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/rtc/types"
+	"github.com/underpin-korea/livekit_server_go/pkg/rtc/types"
 )
 
 type UpTrackManagerParams struct {

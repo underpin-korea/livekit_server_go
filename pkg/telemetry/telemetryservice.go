@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/webhook"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/logger"
+	"github.com/underpin-korea/protocol/webhook"
 )
 
 const updateFrequency = time.Second * 10

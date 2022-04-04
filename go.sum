@@ -268,8 +268,8 @@ github.com/twitchtv/twirp v8.1.0+incompatible h1:KGXanpa9LXdVE/V5P/tA27rkKFmXRGC
 github.com/twitchtv/twirp v8.1.0+incompatible/go.mod h1:RRJoFSAmTEh2weEqWtpPE3vFK5YBhA6bqp2l1kfCC5A=
 github.com/ua-parser/uap-go v0.0.0-20211112212520-00c877edfe0f h1:A+MmlgpvrHLeUP8dkBVn4Pnf5Bp5Yk2OALm7SEJLLE8=
 github.com/ua-parser/uap-go v0.0.0-20211112212520-00c877edfe0f/go.mod h1:OBcG9bn7sHtXgarhUEb3OfCnNsgtGnkVf41ilSZ3K3E=
-github.com/underpin-korea/protocol v0.12.0 h1:5drs8fz/NV8aBIXcv2Pd2L3oYISrNxgtA4Fh2PvAZ3Q=
-github.com/underpin-korea/protocol v0.12.0/go.mod h1:3pHsWUtQmWaH8mG0cXrQWpbf3Vo+kj0U+In77CEXu90=
+github.com/underpin-korea/protocol v0.12.1 h1:1GhRxg5GLTRfPP/Leh1FI8DodQJl7vJzBqK7GZyi1UE=
+github.com/underpin-korea/protocol v0.12.1/go.mod h1:2Ukes+FnQRGPUoTjMN794RtJJtCZqZFi3gZtRhJtUHw=
 github.com/urfave/cli/v2 v2.3.0 h1:qph92Y649prgesehzOrQjdWyxFOp/QVM+6imKHad91M=
 github.com/urfave/cli/v2 v2.3.0/go.mod h1:LJmUH05zAU44vOAcrfzZQKsZbVcdbOG8rtL3/XcUArI=
 github.com/urfave/negroni v1.0.0 h1:kIimOitoypq34K7TG7DUaJ9kq/N4Ofuwi1sjz0KipXc=

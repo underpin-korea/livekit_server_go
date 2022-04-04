@@ -3,10 +3,10 @@ package rtc
 import (
 	"fmt"
 
-	"github.com/livekit/livekit-server/pkg/routing"
-	"github.com/livekit/livekit-server/version"
-	"github.com/livekit/protocol/livekit"
 	"github.com/pion/webrtc/v3"
+	"github.com/underpin-korea/livekit_server_go/pkg/routing"
+	"github.com/underpin-korea/livekit_server_go/version"
+	"github.com/underpin-korea/protocol/livekit"
 	"google.golang.org/protobuf/proto"
 )
 

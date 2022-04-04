@@ -3,12 +3,12 @@ package serverlogger
 import (
 	"github.com/go-logr/logr"
 	"github.com/go-logr/zapr"
-	"github.com/livekit/protocol/logger"
 	"github.com/pion/logging"
+	"github.com/underpin-korea/protocol/logger"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/livekit/livekit-server/pkg/config"
+	"github.com/underpin-korea/livekit_server_go/pkg/config"
 )
 
 var (

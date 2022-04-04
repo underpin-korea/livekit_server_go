@@ -3,7 +3,7 @@ package selector
 import (
 	"github.com/thoas/go-funk"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/underpin-korea/protocol/livekit"
 )
 
 // CPULoadSelector eliminates nodes that have CPU usage higher than CPULoadLimit

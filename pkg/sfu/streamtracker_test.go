@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 
-	"github.com/livekit/livekit-server/pkg/testutils"
-	"github.com/livekit/protocol/logger"
+	"github.com/underpin-korea/livekit_server_go/pkg/testutils"
+	"github.com/underpin-korea/protocol/logger"
 )
 
 func newStreamTracker(samplesRequired uint32, cyclesRequired uint32, cycleDuration time.Duration) *StreamTracker {

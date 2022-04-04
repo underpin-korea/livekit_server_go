@@ -8,17 +8,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
 	"github.com/pion/webrtc/v3"
 	"github.com/stretchr/testify/require"
 	"github.com/thoas/go-funk"
+	"github.com/underpin-korea/protocol/auth"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/rtc"
-	"github.com/livekit/livekit-server/pkg/testutils"
-	testclient "github.com/livekit/livekit-server/test/client"
+	"github.com/underpin-korea/livekit_server_go/pkg/config"
+	"github.com/underpin-korea/livekit_server_go/pkg/rtc"
+	"github.com/underpin-korea/livekit_server_go/pkg/testutils"
+	testclient "github.com/underpin-korea/livekit_server_go/test/client"
 )
 
 func TestClientCouldConnect(t *testing.T) {

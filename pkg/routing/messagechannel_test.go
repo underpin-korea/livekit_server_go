@@ -4,9 +4,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/underpin-korea/protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/routing"
+	"github.com/underpin-korea/livekit_server_go/pkg/routing"
 )
 
 func TestMessageChannel_WriteMessageClosed(t *testing.T) {

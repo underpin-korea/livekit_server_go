@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/gammazero/workerpool"
-	"github.com/livekit/livekit-server/pkg/telemetry/prometheus"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/webhook"
+	"github.com/underpin-korea/livekit_server_go/pkg/telemetry/prometheus"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/webhook"
 )
 
 const maxWebhookWorkers = 50

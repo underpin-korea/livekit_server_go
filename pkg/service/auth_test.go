@@ -5,11 +5,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/auth/authfakes"
 	"github.com/stretchr/testify/require"
+	"github.com/underpin-korea/protocol/auth"
+	"github.com/underpin-korea/protocol/auth/authfakes"
 
-	"github.com/livekit/livekit-server/pkg/service"
+	"github.com/underpin-korea/livekit_server_go/pkg/service"
 )
 
 func TestAuthMiddleware(t *testing.T) {

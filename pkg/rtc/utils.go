@@ -7,11 +7,11 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
 	"github.com/pion/webrtc/v3"
+	"github.com/underpin-korea/protocol/livekit"
+	"github.com/underpin-korea/protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/rtc/types"
+	"github.com/underpin-korea/livekit_server_go/pkg/rtc/types"
 )
 
 const (
